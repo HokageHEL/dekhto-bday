@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Confetti from "canvas-confetti";
 import "./App.css";
 import { msg } from "./msg";
-import oneCoin from "./img/frog.png";
+import oneCoin from "./img/fummo.png";
 
 function App() {
   const [congratulations, setCongratulations] = useState(
@@ -31,7 +31,7 @@ function App() {
       origin: { y: 0.6 },
     });
 
-    const rnd = Math.floor(Math.random() * 85);
+    const rnd = Math.floor(Math.random() * msg.length);
 
     setCongratulations(msg[rnd]);
   };
@@ -41,7 +41,7 @@ function App() {
       <div className="container">
         <header className="header">
           <h1>
-            Янусю, з днем народження!
+            Влад, з днем народження!
             <br />
             <h1 className="bottom-line">|</h1>
           </h1>
