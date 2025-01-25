@@ -5,6 +5,15 @@ import { msg } from "./msg";
 import oneCoin from "./img/fummo.png";
 
 function App() {
+  useEffect(() => {
+    // Add this to handle asset paths in GitHub Pages
+    const base = document.createElement('base');
+    base.href = '/dekhto-bday/';
+    document.head.prepend(base);
+    
+    document.title = "Happy Birthday";
+  }, []);
+
   const [congratulations, setCongratulations] = useState(
     "тут буде текст привітання"
   );
