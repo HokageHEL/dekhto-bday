@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/HokageHEL/bday_yana/static/css/main.66028bb7.css",
-    "main.js": "/HokageHEL/bday_yana/static/js/main.9bd06a62.js",
-    "static/js/453.d414f5b5.chunk.js": "/HokageHEL/bday_yana/static/js/453.d414f5b5.chunk.js",
-    "static/media/fummo.png": "/HokageHEL/bday_yana/static/media/fummo.c0367d12810e78370465.png",
-    "static/media/qua.mp3": "/HokageHEL/bday_yana/static/media/qua.50c37a1fe7399f05a19a.mp3",
-    "index.html": "/HokageHEL/bday_yana/index.html",
-    "main.66028bb7.css.map": "/HokageHEL/bday_yana/static/css/main.66028bb7.css.map",
-    "main.9bd06a62.js.map": "/HokageHEL/bday_yana/static/js/main.9bd06a62.js.map",
-    "453.d414f5b5.chunk.js.map": "/HokageHEL/bday_yana/static/js/453.d414f5b5.chunk.js.map"
+    "main.css": "/HokageHEL/dekhto-bday/static/css/main.66028bb7.css",
+    "main.js": "/HokageHEL/dekhto-bday/static/js/main.5c8e7070.js",
+    "static/js/453.d414f5b5.chunk.js": "/HokageHEL/dekhto-bday/static/js/453.d414f5b5.chunk.js",
+    "static/media/fummo.png": "/HokageHEL/dekhto-bday/static/media/fummo.c0367d12810e78370465.png",
+    "static/media/qua.mp3": "/HokageHEL/dekhto-bday/static/media/qua.50c37a1fe7399f05a19a.mp3",
+    "index.html": "/HokageHEL/dekhto-bday/index.html",
+    "main.66028bb7.css.map": "/HokageHEL/dekhto-bday/static/css/main.66028bb7.css.map",
+    "main.5c8e7070.js.map": "/HokageHEL/dekhto-bday/static/js/main.5c8e7070.js.map",
+    "453.d414f5b5.chunk.js.map": "/HokageHEL/dekhto-bday/static/js/453.d414f5b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.66028bb7.css",
-    "static/js/main.9bd06a62.js"
+    "static/js/main.5c8e7070.js"
   ]
 }
