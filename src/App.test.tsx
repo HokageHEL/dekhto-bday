@@ -2,8 +2,20 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders birthday greeting header', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const headerElement = screen.getByText('Влад, з днем народження!');
+  expect(headerElement).toBeInTheDocument();
+});
+
+test('renders greeting button', () => {
+  render(<App />);
+  const buttonElement = screen.getByText('Привітання!');
+  expect(buttonElement).toBeInTheDocument();
+});
+
+test('renders initial greeting text', () => {
+  render(<App />);
+  const textElement = screen.getByText('тут буде текст привітання');
+  expect(textElement).toBeInTheDocument();
 });

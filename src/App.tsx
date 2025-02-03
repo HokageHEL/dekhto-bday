@@ -2,9 +2,18 @@ import React, { useEffect, useState } from "react";
 import Confetti from "canvas-confetti";
 import "./App.css";
 import { msg } from "./msg";
-import oneCoin from "./img/frog.png";
+import oneCoin from "./img/fummo.png";
 
 function App() {
+  useEffect(() => {
+    // Add this to handle asset paths in GitHub Pages
+    const base = document.createElement('base');
+    base.href = '/dekhto-bday/';
+    document.head.prepend(base);
+    
+    document.title = "Happy Birthday";
+  }, []);
+
   const [congratulations, setCongratulations] = useState(
     "тут буде текст привітання"
   );
@@ -31,7 +40,7 @@ function App() {
       origin: { y: 0.6 },
     });
 
-    const rnd = Math.floor(Math.random() * 85);
+    const rnd = Math.floor(Math.random() * msg.length);
 
     setCongratulations(msg[rnd]);
   };
@@ -41,7 +50,7 @@ function App() {
       <div className="container">
         <header className="header">
           <h1>
-            Янусю, з днем народження!
+            Влад, з днем народження!
             <br />
             <h1 className="bottom-line">|</h1>
           </h1>
