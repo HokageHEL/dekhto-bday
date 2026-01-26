@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/dekhto-bday/static/css/main.66028bb7.css",
-    "main.js": "/dekhto-bday/static/js/main.d0a38455.js",
-    "static/js/453.b57730fc.chunk.js": "/dekhto-bday/static/js/453.b57730fc.chunk.js",
-    "static/media/fummo.png": "/dekhto-bday/static/media/fummo.c0367d12810e78370465.png",
+    "main.css": "/dekhto-bday/static/css/main.036b2cc8.css",
+    "main.js": "/dekhto-bday/static/js/main.fd17f859.js",
+    "static/js/453.d414f5b5.chunk.js": "/dekhto-bday/static/js/453.d414f5b5.chunk.js",
+    "static/media/frog.png": "/dekhto-bday/static/media/frog.8f69becc30753fb145ce.png",
     "static/media/qua.mp3": "/dekhto-bday/static/media/qua.50c37a1fe7399f05a19a.mp3",
     "index.html": "/dekhto-bday/index.html",
-    "main.66028bb7.css.map": "/dekhto-bday/static/css/main.66028bb7.css.map",
-    "main.d0a38455.js.map": "/dekhto-bday/static/js/main.d0a38455.js.map",
-    "453.b57730fc.chunk.js.map": "/dekhto-bday/static/js/453.b57730fc.chunk.js.map"
+    "main.036b2cc8.css.map": "/dekhto-bday/static/css/main.036b2cc8.css.map",
+    "main.fd17f859.js.map": "/dekhto-bday/static/js/main.fd17f859.js.map",
+    "453.d414f5b5.chunk.js.map": "/dekhto-bday/static/js/453.d414f5b5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66028bb7.css",
-    "static/js/main.d0a38455.js"
+    "static/css/main.036b2cc8.css",
+    "static/js/main.fd17f859.js"
   ]
 }
