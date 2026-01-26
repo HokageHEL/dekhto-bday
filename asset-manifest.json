@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/dekhto-bday/static/css/main.036b2cc8.css",
-    "main.js": "/dekhto-bday/static/js/main.fd17f859.js",
+    "main.js": "/dekhto-bday/static/js/main.c6d35062.js",
     "static/js/453.d414f5b5.chunk.js": "/dekhto-bday/static/js/453.d414f5b5.chunk.js",
     "static/media/frog.png": "/dekhto-bday/static/media/frog.8f69becc30753fb145ce.png",
     "static/media/qua.mp3": "/dekhto-bday/static/media/qua.50c37a1fe7399f05a19a.mp3",
     "index.html": "/dekhto-bday/index.html",
     "main.036b2cc8.css.map": "/dekhto-bday/static/css/main.036b2cc8.css.map",
-    "main.fd17f859.js.map": "/dekhto-bday/static/js/main.fd17f859.js.map",
+    "main.c6d35062.js.map": "/dekhto-bday/static/js/main.c6d35062.js.map",
     "453.d414f5b5.chunk.js.map": "/dekhto-bday/static/js/453.d414f5b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.036b2cc8.css",
-    "static/js/main.fd17f859.js"
+    "static/js/main.c6d35062.js"
   ]
 }
