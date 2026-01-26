@@ -10,7 +10,7 @@ function App() {
   );
 
   useEffect(() => {
-    document.title = "Happy Birthday";
+    document.title = "🎂 Happy Birthday - Miku Style! 🎵";
   }, []);
 
   const quaSound = require("./sound/qua.mp3");
@@ -25,11 +25,36 @@ function App() {
   };
 
   const handleClick = async () => {
+    // Miku-themed confetti with teal, cyan, and pink colors
+    const colors = ['#39C5BB', '#00D9FF', '#FFB6C1', '#FF69B4', '#FFFFFF', '#7FFFD4'];
+    
+    // Multiple confetti bursts for more celebration
     Confetti({
-      particleCount: 100,
+      particleCount: 150,
       spread: 70,
       origin: { y: 0.6 },
+      colors: colors,
     });
+
+    setTimeout(() => {
+      Confetti({
+        particleCount: 100,
+        angle: 60,
+        spread: 55,
+        origin: { x: 0 },
+        colors: colors,
+      });
+    }, 100);
+
+    setTimeout(() => {
+      Confetti({
+        particleCount: 100,
+        angle: 120,
+        spread: 55,
+        origin: { x: 1 },
+        colors: colors,
+      });
+    }, 200);
 
     const rnd = Math.floor(Math.random() * 85);
 
@@ -39,11 +64,19 @@ function App() {
   return (
     <div className="App">
       <div className="container">
+        {/* Floating sparkles */}
+        <div className="sparkle sparkle-1">✨</div>
+        <div className="sparkle sparkle-2">⭐</div>
+        <div className="sparkle sparkle-3">✨</div>
+        <div className="sparkle sparkle-4">💫</div>
+        <div className="sparkle sparkle-5">⭐</div>
+        <div className="sparkle sparkle-6">✨</div>
+        
         <header className="header">
           <h1>
-            Янусю, з днем народження!
+            Янусю, з днем народження! 🎵
             <br />
-            <h1 className="bottom-line">|</h1>
+            <span className="bottom-line">|</span>
           </h1>
         </header>
 
