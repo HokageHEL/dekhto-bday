@@ -74,7 +74,7 @@ function App() {
         
         <header className="header">
           <h1>
-            Янусю, з днем народження! 🎵
+            Влад, з днем народження! 🎵
             <br />
             <span className="bottom-line">|</span>
           </h1>
